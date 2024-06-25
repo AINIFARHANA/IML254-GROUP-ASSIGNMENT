@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>KOPI MAMA</title>
+
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    mama station
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">HOME</a></li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            ABOUT US <i class="ri-arrow-drop-down-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="whychooseus.html" class="dropdown__link">
+                                    WHY CHOOSE US?
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="operation.html" class="dropdown__link">
+                                    OPERATING HOURS
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="halalpolicy.html" class="dropdown__link">
+                                    HALAL POLICY
+                                </a>
+                            </li>
+
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    MORE <i class="ri-add-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="gallery.html" class="dropdown__sublink">
+                                            GALLERY
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="amenities.html" class="nav__link">AMENITIES</a></li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            MENU <i class="ri-arrow-drop-down-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="topseller.html" class="dropdown__link">
+                                    TOP SELLERS
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    COFFEE
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="smoothie.html" class="dropdown__link">
+                                    SMOOTHIE
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="food.html" class="dropdown__link">
+                                    FOOD
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="rewards.html" class="nav__link">REWARDS</a></li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            CONTACT <i class="ri-arrow-drop-down-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="contact.html" class="dropdown__link">
+                                    CONTACT US
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="job.html" class="dropdown__link">
+                                    JOB
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="location.html" class="dropdown__link">
+                                    LOCATION
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--==main==-->
+
+    <main class="main">
+
+        <!--==menu==-->
+
+        <section class="section taylor">
+            <div class="taylor__container container grid">
+
+                <div class="taylor__data">
+                    <a href="topseller.html">
+                        <img src="image/topseller.png" alt="Cafe Image" class="taylor__img">
+                        <h3 class="taylor__title">TOP SELLER</h3>
+                    </a>
+                </div>
+
+                <div class="taylor__data">
+                    <a href="coffee.html">
+                        <img src="image/menu1.png" alt="Operation Hours Image" class="taylor__img">
+                        <h3 class="taylor__title">COFFEE</h3>
+                    </a>
+                </div>
+
+                <div class="taylor__data">
+                    <a href="smoothie.html">
+                        <img src="image/menu2.png" alt="Halal Policy Image" class="taylor__img">
+                        <h3 class="taylor__title">SMOOTHIE</h3>
+                    </a>
+                </div>
+
+                <div class="taylor__data">
+                    <a href="dessert.html">
+                        <img src="image/dessert.png" alt="Gallery Image" class="taylor__img">
+                        <h3 class="taylor__title">DESSERT</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==about==-->
+        <div class="about__data">
+            <h2 class="section__title">Top Sellers</h2>
+        </div>
+        <div class="card__container">
+            <article>
+               <!-- CARD PRODUCT -->
+               <div class="card__product">
+                  <img src="image/coffee1.png" alt="image" class="card__img">
+   
+                  <div>
+                     <h3 class="card__name">BOBA MILK TEA</h3>
+                     <span class="card__price">RM 7.00</span>
+                  </div>
+               </div>
+
+               <!-- POPUP MODAL -->
+               <div class="modal">
+                  <div class="modal__card">
+                     <i class="ri-close-large-line modal__close"></i>
+
+                     <img src="image/coffee1.png" alt="image" class="modal__img">
+
+                     <div>
+                        <h3 class="modal__name">BOBA MILK TEA</h3>
+                        <p class="modal__info">
+                            Creamy, refreshing, chewy, flavorful, and indulgent boba milk tea.
+                        </p>
+                        <span class="modal__price">RM 7.00</span>
+                     </div>
+
+                     <div class="modal__buttons">
+                     </div>
+                  </div>
+               </div>
+            </article>
+
+            <article>
+               <!-- CARD PRODUCT -->
+               <div class="card__product">
+                  <img src="image/coffee2.png" alt="image" class="card__img">
+   
+                  <div>
+                     <h3 class="card__name">HAZELNUT COFFEE</h3>
+                     <span class="card__price">RM 6.00</span>
+                  </div>
+               </div>
+
+               <!-- POPUP MODAL -->
+               <div class="modal">
+                  <div class="modal__card">
+                     <i class="ri-close-large-line modal__close"></i>
+
+                     <img src="image/coffee2.png" alt="image" class="modal__img">
+
+                     <div>
+                        <h3 class="modal__name">HAZELNUT COFFEE</h3>
+                        <p class="modal__info">
+                            Creamy hazelnut coffee with rich aroma.
+                        </p>
+                        <span class="modal__price">RM 6.00</span>
+                     </div>
+
+                  </div>
+               </div>
+            </article>
+
+            <article>
+               <!-- CARD PRODUCT -->
+                <div class="card__product">
+                   <img src="image/avocado.png" alt="image" class="card__img">
+    
+                   <div>
+                      <h3 class="card__name">AVOCADO</h3>
+                      <span class="card__price">RM 8.00</span>
+                   </div>
+                </div>
+
+               <!-- POPUP MODAL -->
+               <div class="modal">
+                  <div class="modal__card">
+                     <i class="ri-close-large-line modal__close"></i>
+
+                     <img src="image/avocado.png" alt="image" class="modal__img">
+
+                     <div>
+                        <h3 class="modal__name">AVOCADO</h3>
+                        <p class="modal__info">
+                            Avocado is celebrated for its rich, creamy texture and its versatility in both savory and sweet dishes.
+                        </p>
+                        <span class="modal__price">RM 8.00</span>
+                     </div>
+
+                  </div>
+               </div>
+            </article>
+
+            <article>
+               <!-- CARD PRODUCT -->
+                <div class="card__product">
+                   <img src="image/coffee4.png" alt="image" class="card__img">
+    
+                   <div>
+                      <h3 class="card__name">MATCHA LATTE</h3>
+                      <span class="card__price">RM 6.50</span>
+                   </div>
+                </div>
+
+               <!-- POPUP MODAL -->
+               <div class="modal">
+                  <div class="modal__card">
+                     <i class="ri-close-large-line modal__close"></i>
+
+                     <img src="image/coffee4.png" alt="image" class="modal__img">
+
+                     <div>
+                        <h3 class="modal__name">MATCHA LATTE</h3>
+                        <p class="modal__info">
+                            Creamy matcha latte with rich, earthy flavors and a frothy texture.
+                        </p>
+                        <span class="modal__price">RM 6.50</span>
+                     </div>
+
+                  </div>
+               </div>
+            </article>
+
+            <article>
+               <!-- CARD PRODUCT -->
+                <div class="card__product">
+                   <img src="image/coffee7.png" alt="image" class="card__img">
+    
+                   <div>
+                      <h3 class="card__name">MOCHA</h3>
+                      <span class="card__price">RM 8.00</span>
+                   </div>
+                </div>
+
+               <!-- POPUP MODAL -->
+               <div class="modal">
+                  <div class="modal__card">
+                     <i class="ri-close-large-line modal__close"></i>
+
+                     <img src="image/coffee7.png" alt="image" class="modal__img">
+
+                     <div>
+                        <h3 class="modal__name">MOCHA</h3>
+                        <p class="modal__info">
+                            Smooth and indulgent chocolate-infused coffee with a hint of espresso.
+                     </p>
+                        <span class="modal__price">RM 8.00</span>
+                     </div>
+
+                  </div>
+               </div>
+            </article>
+
+            <article>
+               <!-- CARD PRODUCT -->
+                <div class="card__product">
+                   <img src="image/boba.png" alt="image" class="card__img">
+    
+                   <div>
+                      <h3 class="card__name">BOBA MILK TEA</h3>
+                      <span class="card__price">RM 7.80</span>
+                   </div>
+                </div>
+
+               <!-- POPUP MODAL -->
+               <div class="modal">
+                  <div class="modal__card">
+                     <i class="ri-close-large-line modal__close"></i>
+
+                     <img src="image/boba.png" alt="image" class="modal__img">
+
+                     <div>
+                        <h3 class="modal__name">BOBA MILK TEA</h3>
+                        <p class="modal__info">
+                            Creamy tea infused with chewy tapioca pearls for a delightful treat.
+                        </p>
+                        <span class="modal__price">RM 7.80</span>
+                     </div>
+
+                  </div>
+               </div>
+            </article>
+         </div>
+      </section>
+
+
+        <!--==footer==-->
+
+        <footer class="footer">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        <i class="ri-cup-line"></i> Mama Station
+                    </a>
+
+                    <p class="footer__descripiton">
+                        Cozy, Aromatic <br> Inviting
+                    </p>
+                </div>
+                <div class="footer__content grid">
+                    <div>
+                        <h3 class="footer__title">About Mama Station</h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="aboutus.html" class="footer__link">About Us</a>
+                            </li>
+
+                            <li>
+                                <a href="topseller.html" class="footer__link">Products</a>
+                            </li>
+
+                            <li>
+                                <a href="halalpolicy.html" class="footer__link">Halal Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">Address</h3>
+                        <ul class="footer__list">
+                            <li>
+                                <address class="footer__info">Mama Station, Machang Kelantan</address>
+                            </li>
+                            <li>
+                                <address class="footer__info">Sunday-Thursday: 10am-7pm <br> Friday: 10am-12pm</address>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">SOCIAL MEDIA</h3>
+
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/share/21xeEAjQNTknTvSH/?mibextid=LQQJ4d" target="_blank"
+                                class="footer__social-link">
+                                <i class="ri-facebook-circle-line"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/mamastation.machang?igsh=MTVnam9obnY0ZTd1YQ%3D%3D&utm_source=qr"
+                                target="_blank" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+
+                            <a href="https://www.tiktok.com/@mama.station?_t=8nBlcUBSPuC" target="_blank"
+                                class="footer__social-link">
+                                <i class="ri-tiktok-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="footer__copy">
+                &#169; 2024 Mama Station. All Right Reserved.
+            </span>
+        </footer>
+
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const icons = document.querySelectorAll('.gift__icon');
+
+            icons.forEach(icon => {
+                icon.addEventListener('click', function () {
+                    // Toggle heart icon between empty and filled
+                    icon.classList.toggle('ri-heart-line');
+                    icon.classList.toggle('ri-heart-fill');
+                });
+            });
+        });
+    </script>
+
+    <script>
+        const modal = document.querySelectorAll('.modal'),
+            cardBtn = document.querySelectorAll('.card__product'),
+            modalClose = document.querySelectorAll('.modal__close'),
+            modalCard = document.querySelectorAll('.modal__card')
+
+        let activeModal = (modalClick) => {
+            modal[modalClick].classList.add('active-modal')
+        }
+
+        /* Show modal */
+        cardBtn.forEach((cardBtn, i) => {
+            cardBtn.addEventListener('click', () => {
+                activeModal(i)
+            })
+        })
+
+        /* Hide modal */
+        modalClose.forEach((modalClose) => {
+            modalClose.addEventListener('click', () => {
+                modal.forEach((modalRemove) => {
+                    modalRemove.classList.remove('active-modal')
+                })
+            })
+        })
+
+        /* Hide modal on background click */
+        modal.forEach((modal) => {
+            modal.addEventListener('click', () => {
+                modal.classList.remove('active-modal')
+            })
+        })
+
+        /* Don't hide modal on card click (by event propagation) */
+        modalCard.forEach((modalCard) => {
+            modalCard.addEventListener('click', (e) => {
+                e.stopPropagation()
+            })
+        })
+    </script>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <script src="scrollreveal.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>KOPI MAMA</title>
+
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    mama station
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">HOME</a></li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            ABOUT US <i class="ri-arrow-drop-down-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="whychooseus.html" class="dropdown__link">
+                                    WHY CHOOSE US?
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="operation.html" class="dropdown__link">
+                                    OPERATING HOURS
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="halalpolicy.html" class="dropdown__link">
+                                    HALAL POLICY
+                                </a>
+                            </li>
+
+                            <!--==dropdown submenu==-->
+
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    MORE <i class="ri-add-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="gallery.html" class="dropdown__sublink">
+                                            GALLERY
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li><a href="#" class="nav__link">AMENITIES</a></li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            MENU <i class="ri-arrow-drop-down-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    TOP SELLERS
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    COFFEE
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    SMOOTHIE
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    DESSERT
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#" class="nav__link">REWARDS</a></li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            CONTACT <i class="ri-arrow-drop-down-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="contact.html" class="dropdown__link">
+                                    CONTACT US
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="booking.html" class="dropdown__link">
+                                    BOOKING
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="job.html" class="dropdown__link">
+                                    JOB OFFER
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--==main==-->
+
+    <main class="main">      
+
+        <!--==about==-->
+
+        <section class="contact">
+            <div class="contact-content">
+                <h2 class="section__title">Contact Us</h2>
+                <p>If you have any questions that you want to ask us, please fill out this form.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contactInfo">
+                    <div class="contact-box">
+                        <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                        <div class="contact-text">
+                            <h3>Address</h3>
+                            <p>Mama Station<br> 81, Jalan Melati,<br> 18500, Machang,<br> Kelantan,<br> Malaysia</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                        <div class="contact-text">
+                            <h3>Phone</h3>
+                            <p>013-9538896</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <div class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+                        <div class="contact-text">
+                            <h3>Email</h3>
+                            <p>mamastationmachang@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactForm">
+                    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                        <h2>Send Message</h2>
+                        <div class="inputBox">
+                            <input type="text" name="name" required="required">
+                            <span>Full Name</span>
+                        </div>
+                        <div class="inputBox">
+                            <input type="email" name="email" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputBox">
+                            <textarea name="message" required="required"></textarea>
+                            <span>Type your message...</span>
+                        </div>
+                        <input type="hidden" name="access_key" value="1d076593-eacc-4186-b291-f5977223dcea">
+                        <input type="hidden" name="redirect" value="">
+                        <div class="inputBox">
+                            <input type="submit" value="Send">
+                        </div>
+                    </form>
+                    <div id="feedbackMessage" class="feedback-message"></div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            document.getElementById('contactForm').addEventListener('submit', function (e) {
+                e.preventDefault(); // Prevent default form submission
+    
+                const form = e.target;
+                const formData = new FormData(form);
+                const feedbackMessage = document.getElementById('feedbackMessage');
+    
+                fetch(form.action, {
+                    method: form.method,
+                    body: formData
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        form.reset(); // Reset form fields
+                        feedbackMessage.className = 'feedback-message feedback-success';
+                        feedbackMessage.textContent = 'Your message has been sent successfully!';
+                    } else {
+                        feedbackMessage.className = 'feedback-message feedback-error';
+                        feedbackMessage.textContent = 'There was an error sending your message. Please try again later.';
+                    }
+                    feedbackMessage.style.display = 'block'; // Show feedback message
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    feedbackMessage.className = 'feedback-message feedback-error';
+                    feedbackMessage.textContent = 'There was an error sending your message. Please try again later.';
+                    feedbackMessage.style.display = 'block'; // Show feedback message
+                });
+            });
+        </script>
+        
+
+        <!--==footer==-->
+
+        <footer class="footer">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        <i class="ri-cup-line"></i> Mama Station
+                    </a>
+
+                    <p class="footer__descripiton">
+                        Cozy, Aromatic <br> Inviting
+                    </p>
+                </div>
+                <div class="footer__content grid">
+                    <div>
+                        <h3 class="footer__title">About Mama Station</h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="aboutus.html" class="footer__link">About Us</a>
+                            </li>
+
+                            <li>
+                                <a href="" class="footer__link">Products</a>
+                            </li>
+
+                            <li>
+                                <a href="" class="footer__link">Halal Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">Address</h3>
+                        <ul class="footer__list">
+                            <li>
+                                <address class="footer__info">Mama Station, Machang Kelantan</address>
+                            </li>
+                            <li>
+                                <address class="footer__info">Sunday-Thursday: 10am-7pm <br> Friday: 10am-12pm</address>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">SOCIAL MEDIA</h3>
+
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/share/21xeEAjQNTknTvSH/?mibextid=LQQJ4d" target="_blank"
+                                class="footer__social-link">
+                                <i class="ri-facebook-circle-line"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/mamastation.machang?igsh=MTVnam9obnY0ZTd1YQ%3D%3D&utm_source=qr"
+                                target="_blank" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+
+                            <a href="https://www.tiktok.com/@mama.station?_t=8nBlcUBSPuC" target="_blank"
+                                class="footer__social-link">
+                                <i class="ri-tiktok-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="footer__copy">
+                &#169; 2024 Mama Station. All Right Reserved.
+            </span>
+        </footer>
+
+    </main>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <script src="scrollreveal.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
