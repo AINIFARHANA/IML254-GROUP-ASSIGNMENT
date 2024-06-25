@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>KOPI MAMA</title>
+
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    mama station
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">HOME</a></li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            ABOUT US <i class="ri-arrow-drop-down-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="whychooseus.html" class="dropdown__link">
+                                    WHY CHOOSE US?
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="operation.html" class="dropdown__link">
+                                    OPERATING HOURS
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="halalpolicy.html" class="dropdown__link">
+                                    HALAL POLICY
+                                </a>
+                            </li>
+
+                            <!--==dropdown submenu==-->
+
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    MORE <i class="ri-add-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="gallery.html" class="dropdown__sublink">
+                                            GALLERY
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <li><a href="amenities.html" class="nav__link">AMENITIES</a></li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            MENU <i class="ri-arrow-drop-down-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="topseller.html" class="dropdown__link">
+                                    TOP SELLERS
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="coffee.html" class="dropdown__link">
+                                    COFFEE
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="smoothie.html" class="dropdown__link">
+                                    SMOOTHIE
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="food.html" class="dropdown__link">
+                                    FOOD
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="rewards.html" class="nav__link">REWARDS</a></li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            CONTACT <i class="ri-arrow-drop-down-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="contact.html" class="dropdown__link">
+                                    CONTACT US
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="job.html" class="dropdown__link">
+                                    JOB
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="location.html" class="dropdown__link">
+                                    LOCATION
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--==main==-->
+
+    <main class="main">
+
+        <!--==menu==-->
+
+        <section class="section taylor">
+            <div class="taylor__container container grid">
+
+                <div class="taylor__data">
+                    <a href="whychooseus.html">
+                        <img src="image/cafe.png" alt="Cafe Image" class="taylor__img">
+                        <h3 class="taylor__title">Why Choose Us</h3>
+                    </a>
+                </div>
+
+                <div class="taylor__data">
+                    <a href="operation.html">
+                        <img src="image/operation.png" alt="Operation Hours Image" class="taylor__img">
+                        <h3 class="taylor__title">Operation Hours</h3>
+                    </a>
+                </div>
+
+                <div class="taylor__data">
+                    <a href="halalpolicy.html">
+                        <img src="image/halal.png" alt="Halal Policy Image" class="taylor__img">
+                        <h3 class="taylor__title">Halal Policy</h3>
+                    </a>
+                </div>
+
+                <div class="taylor__data">
+                    <a href="gallery.html">
+                        <img src="image/gallery.png" alt="Gallery Image" class="taylor__img">
+                        <h3 class="taylor__title">Gallery</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==about==-->
+
+        <section class="coffee__gallery container grid">
+            <div class="about__data">
+                <h2 class="section__title">Mama Station in Frames</h2>
+
+                <p class="about__description">
+                Explore the enchanting world of Mama Station through our captivating gallery.
+                </p>
+            </div>
+
+            <ul class="coffee__ul">
+                <li class="coffee__list active" data-filter="ALL">ALL</li>
+                <li class="coffee__list" data-filter="event">EVENT</li>
+                <li class="coffee__list" data-filter="customer">CUSTOMER</li>
+                <li class="coffee__list" data-filter="feedback">FEEDBACK</li>
+            </ul>
+
+            <div class="coffee__photo">
+                <div class="itemBox event"><img src="image/event1.jpg"></div>
+                <div class="itemBox customer"><img src="image/album1.jpg"></div>
+                <div class="itemBox feedback"><img src="image/feedback1.jpg"></div>
+
+                <div class="itemBox event"><img src="image/event2.jpg"></div>
+                <div class="itemBox customer"><img src="image/album2.jpg"></div>
+                <div class="itemBox feedback"><img src="image/feedback2.jpg"></div>
+
+                <div class="itemBox event"><img src="image/event3.jpg"></div>
+                <div class="itemBox customer"><img src="image/album3.jpg"></div>
+                <div class="itemBox feedback"><img src="image/feedback3.jpg"></div>
+
+                <div class="itemBox customer"><img src="image/album4.jpg"></div>
+                <div class="itemBox feedback"><img src="image/feedback4.jpg"></div>
+
+                <div class="itemBox customer"><img src="image/album5.jpg"></div>
+                <div class="itemBox feedback"><img src="image/feedback5.jpg"></div>
+                <div class="itemBox event"><img src="image/event4.jpg"></div>
+
+                <div class="itemBox feedback"><img src="image/feedback6.jpg"></div>
+                <div class="itemBox event"><img src="image/event5.jpg"></div>
+                
+                <div class="itemBox event"><img src="image/event6.jpg"></div>
+            </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.js"
+            integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.coffee__list').click(function () {
+                    const value = $(this).attr('data-filter');
+                    if (value == 'ALL') {
+                        $('.itemBox').show('1000');
+                    }
+                    else {
+                        $('.itemBox').not('.' + value).hide('1000');
+                        $('.itemBox').filter('.' + value).show('1000');
+                    }
+                })
+            })
+        </script>
+
+        <!--==footer==-->
+
+        <footer class="footer">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        <i class="ri-cup-line"></i> Mama Station
+                    </a>
+
+                    <p class="footer__descripiton">
+                        Cozy, Aromatic <br> Inviting
+                    </p>
+                </div>
+                <div class="footer__content grid">
+                    <div>
+                        <h3 class="footer__title">About Mama Station</h3>
+                        <ul class="footer__links">
+                            <li>
+                                <a href="aboutus.html" class="footer__link">About Us</a>
+                            </li>
+
+                            <li>
+                                <a href="" class="footer__link">Products</a>
+                            </li>
+
+                            <li>
+                                <a href="" class="footer__link">Halal Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">Address</h3>
+                        <ul class="footer__list">
+                            <li>
+                                <address class="footer__info">Mama Station, Machang Kelantan</address>
+                            </li>
+                            <li>
+                                <address class="footer__info">Sunday-Thursday: 10am-7pm <br> Friday: 10am-12pm</address>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">SOCIAL MEDIA</h3>
+
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/share/21xeEAjQNTknTvSH/?mibextid=LQQJ4d" target="_blank"
+                                class="footer__social-link">
+                                <i class="ri-facebook-circle-line"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/mamastation.machang?igsh=MTVnam9obnY0ZTd1YQ%3D%3D&utm_source=qr"
+                                target="_blank" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+
+                            <a href="https://www.tiktok.com/@mama.station?_t=8nBlcUBSPuC" target="_blank"
+                                class="footer__social-link">
+                                <i class="ri-tiktok-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="footer__copy">
+                &#169; 2024 Mama Station. All Right Reserved.
+            </span>
+        </footer>
+
+    </main>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <script src="scrollreveal.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
